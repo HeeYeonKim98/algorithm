@@ -26,7 +26,18 @@ print("%o" %n)
 a=ord(input())
 print("%d" %a)
 
-#1037 : 
-#1038 : 
-#1039 : 
-#1040 : 
+#1037 : 정수 입력받아 아스키 출력
+a=int(input())
+print("%s" %chr(a))
+
+#1038 : 정수 2개 입력받아 합 출력
+a,b=input().split(" ")
+print(int(a)+int(b))
+
+#1039 : 정수 2개 입력받아 합 출력
+a,b=input().split(" ")
+print("%d" %(int(a)+int(b)))
+
+#1040 : 정수 입력받아 부호바꿔 출력
+a=int(input())
+print("%d" %(-a))
