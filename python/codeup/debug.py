@@ -1,7 +1,18 @@
-a=int(input())
+# a,b,v=map(int,input().split(" "))
 
-if 3<=a<=5: print("spring")
-elif 6<=a<=8: print("summer")
-elif 9<=a<=11: print("fall")
-elif a==1 or a==2 or a==12: print("winter")
-else: print("no")
+# print(v//(a-b))
+
+
+# a=int
+
+# while a!=0:
+#     a=input().split()
+#     for i in range(len(a)):
+#         if a[i]=="0": break
+#         else: print(a[i])
+#     break
+    
+a=input().split()
+for i in range(len(a)):
+    if a[i]=="0": break
+    else: print(a[i])
