@@ -9,7 +9,12 @@ for i in range(len(a)):
     if a[i]=="0": break
     else: print(a[i])
 
-# 1074 : 
+# 1074 : 정수 입력받아 카운트다운 출력
+a=int(input())
+for i in range(1,a+1):
+    print(a)
+    a=a-1
+
 # 1075 : 
 # 1076 : 
 # 1077 : 

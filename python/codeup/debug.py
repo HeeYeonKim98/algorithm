@@ -12,7 +12,7 @@
 #         else: print(a[i])
 #     break
     
-a=input().split()
-for i in range(len(a)):
-    if a[i]=="0": break
-    else: print(a[i])
+a=int(input())
+for i in range(1,a+1):
+    print(a)
+    a=a-1
