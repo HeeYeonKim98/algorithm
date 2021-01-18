@@ -12,7 +12,7 @@
 #         else: print(a[i])
 #     break
     
-a=int(input())
+a=chr(input())
 for i in range(1,a+1):
-    print(a)
     a=a-1
+    print(a)
