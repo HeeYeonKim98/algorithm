@@ -23,7 +23,14 @@ for i in range(1,a+1):
 
 # 1076 : 문자 입력받아 알파벳 출력
 
+
 # 1077 : 
-# 1078 : 
+# 1078 : 짝수 합 출력
+s=int()
+a=int(input())
+for i in range(1,a+1):
+    if i%2==0: s=s+i
+print(s)
+
 # 1079 : 
 # 1080 : 

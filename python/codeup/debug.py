@@ -12,7 +12,12 @@
 #         else: print(a[i])
 #     break
     
-a=chr(input())
+# a=chr(input())
+# while a<'z'+1:
+#     print(a)
+#     a=a+1
+s=int()
+a=int(input())
 for i in range(1,a+1):
-    a=a-1
-    print(a)
+    if i%2==0: s=s+i
+print(s)
