@@ -16,8 +16,12 @@
 # while a<'z'+1:
 #     print(a)
 #     a=a+1
-s=int()
-a=int(input())
-for i in range(1,a+1):
-    if i%2==0: s=s+i
-print(s)
+
+a=input().split(" ")
+for i in range(len(a)):
+    if a[i]=="q":
+        print(a[i])
+        break
+    else:
+        print(a[i])
+

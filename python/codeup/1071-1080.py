@@ -3,7 +3,7 @@
 # 1071 : 0 입력될 때까지 무한 출력
 # 1072 : 정수 입력받아 무한 출력
 
-# 1073 : 0 입력될 때까지 무한 출력(while)
+# 1073 : 0 입력될 때까지 무한 출력
 a=input().split()
 for i in range(len(a)):
     if a[i]=="0": break
@@ -32,5 +32,13 @@ for i in range(1,a+1):
     if i%2==0: s=s+i
 print(s)
 
-# 1079 : 
+# 1079 : "q" 입력될 때까지 무한 출력
+a=input().split(" ")
+for i in range(len(a)):
+    if a[i]=="q":
+        print(a[i])
+        break
+    else:
+        print(a[i])
+
 # 1080 : 
