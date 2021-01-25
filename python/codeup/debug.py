@@ -1,9 +1,5 @@
-a=input()
-result="a"
+a=int(input())
+b=input().split(" ")
 
-while result!=a:
-    print(result,end=' ')
-    result=ord(result)
-    result=result+1
-    result=chr(result)
-print(a)
+for i in b:
+    print(i)
