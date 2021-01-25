@@ -22,7 +22,15 @@ for i in range(1,a+1):
     print(a)
 
 # 1076 : 문자 입력받아 알파벳 출력
+a=input()
+result="a"
 
+while result!=a:
+    print(result,end=' ')
+    result=ord(result)
+    result=result+1
+    result=chr(result)
+print(a)
 
 # 1077 : 
 # 1078 : 짝수 합 출력

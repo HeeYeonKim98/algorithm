@@ -1,10 +1,9 @@
-a=int(input())
-result=0
-for i in range(1,a):
-    if(a<=result):
-        print(i-1)
-        break
-    else:
-        result=result+i
+a=input()
+result="a"
 
-        
+while result!=a:
+    print(result,end=' ')
+    result=ord(result)
+    result=result+1
+    result=chr(result)
+print(a)
