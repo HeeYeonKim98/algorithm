@@ -5,12 +5,12 @@ a=input()
 print("%o" %int(a))
 
 # 1032 : 10진수 입력받아 16진수 출력(소)
-a=input()
-print("%x" %int(a))
+a=int(input())
+print("%x" %a)
 
 # 1033 : 10진수 입력받아 16진수 출력(대)
-a=input()
-print("%X" %oct(a))
+a=int(input())
+print("%X" %a)
 
 # 1034 : 8진수 입력받아 10진수 출력
 a=input()
