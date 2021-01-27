@@ -1,6 +1,9 @@
-a=input()
-a=int(a,16)
+a=int(input())
+result=0
 
-for i in range(1,16):
-    result=a*i
-    print("%X*%X=%X" %(a,i,result))
+for i in range(1,a+2):
+    if result>=a:
+        print(result)
+        break
+    else:
+        result+=i
