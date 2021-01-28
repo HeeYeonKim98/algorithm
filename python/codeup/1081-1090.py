@@ -48,6 +48,24 @@ for i in range(1,a+2):
         break
     else: result+=i
 
-# 1088 : 
-# 1089 : 
-# 1090 : 
+# 1088 : 3의 배수 제외하고 숫자 출력
+a=int(input())
+for i in range(1,a+1):
+    if i%3==0: continue
+    else: print(i)
+
+# 1089 : 등차수열 구현
+a,d,n=map(int, input().split(" "))
+result=a+(n-1)*d
+print(result)
+
+#
+a,d,n=map(int, input().split(" "))
+for i in range(1,n):
+    a=a+d
+print(a)
+
+# 1090 : 등비수열 구현
+a,r,n=map(int, input().split(" "))
+result=a*(r**(n-1))
+print(result)
