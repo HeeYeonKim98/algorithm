@@ -1,7 +1,4 @@
-arr=[]
 n=int(input())
-# arr=input().split(" ")
-
-for i in range(len(arr)):
-    arr
-    print(arr[i], end=" ")
+arr_random=list(map(int, input().split()))
+for i in reversed(arr_random):
+    print(i, end=" ")
