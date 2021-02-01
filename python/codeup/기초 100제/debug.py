@@ -1,4 +1,8 @@
 n=int(input())
 arr_random=list(map(int, input().split()))
-for i in reversed(arr_random):
-    print(i, end=" ")
+num=23
+for i in arr_random:
+    if num>i:
+        num=i
+
+print(num)
