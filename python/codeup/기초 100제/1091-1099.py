@@ -57,17 +57,20 @@ for i in arr_random:
 
 print(num)
 
-# 1096 : 바둑판
+#
 n=int(input())
+arr_random=list(map(int, input().split()))
+for i in arr_random:
+    if num>i:
+        num=i
+
+# 1096 : 바둑판
 
 # 1097 : 바둑알
-n=int(input())
 
 
 # 1098 : 설탕과자 뽑기
-n=int(input())
 
 
 # 1099 : 성실한 개미
-n=int(input())
 
