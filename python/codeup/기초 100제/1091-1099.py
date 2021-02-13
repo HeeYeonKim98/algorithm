@@ -57,14 +57,17 @@ for i in arr_random:
 
 print(num)
 
-#
-n=int(input())
-arr_random=list(map(int, input().split()))
-for i in arr_random:
-    if num>i:
-        num=i
-
 # 1096 : 바둑판
+n=int(input())
+arr = [[0 for col in range(19)] for row in range(19)]
+for i in range(n):
+    a,b=map(int, input().split(" "))
+    arr[a-1][b-1]=1
+
+for i in arr:
+    for j in i:
+        print(j,end=" ")
+    print()
 
 # 1097 : 바둑알
 
