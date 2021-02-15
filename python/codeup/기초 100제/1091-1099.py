@@ -1,4 +1,4 @@
-# 1091 - 1099
+# 1091 - 1098
 
 # 1091 : 만든 수열 구현
 a,m,d,n=map(int, input().split(" "))
@@ -69,11 +69,15 @@ for i in arr:
         print(j,end=" ")
     print()
 
-# 1097 : 바둑알
+# 1098 : 설탕과자 뽑기(미)
+h,w=map(int, input().split(" "))
+arr = [[0 for col in range(h)] for row in range(w)]
+n=int(input())
 
+for i in range(n):
+    l,d,x,y=map(int, input().split(" "))
 
-# 1098 : 설탕과자 뽑기
-
-
-# 1099 : 성실한 개미
-
+for i in arr:
+    for j in i:
+        print(j,end=" ")
+    print()

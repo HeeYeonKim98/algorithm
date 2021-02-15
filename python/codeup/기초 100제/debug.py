@@ -1,8 +1,9 @@
+h,w=map(int, input().split(" "))
+arr = [[0 for col in range(h)] for row in range(w)]
 n=int(input())
-arr = [[0 for col in range(19)] for row in range(19)]
+
 for i in range(n):
-    a,b=map(int, input().split(" "))
-    arr[a-1][b-1]=1
+    l,d,x,y=map(int, input().split(" "))
 
 for i in arr:
     for j in i:
