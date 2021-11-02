@@ -1,0 +1,7 @@
+-- 동물의 이름과 보호 시작일을 ANIMAL_ID 역순으로 조회하기
+
+-- 풀이
+
+SELECT NAME, DATETIME
+FROM ANIMAL_INS
+ORDER BY ANIMAL_ID DESC
