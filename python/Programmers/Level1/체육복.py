@@ -5,21 +5,15 @@
 def solution(n,lost,reserve):
     set_reserve=set(reserve)-set(lost)
     set_lost=set(lost)-set(reserve)
-    
-    return 0
 
-n=5
-lost=[2,4]
-reserve=[1,3,5]
-print(solution(n,lost,reserve))
-
-i=0
-sum=0
-while i<10:
-    i=i+1
-    if i%2==0:
-        continue
-    sum=sum+i
+    for i in set_lost:
+        if i+1 in set_reserve:
+            set_reserve.remove(i+1)
+        elif i-1 in set_reserve:
+            set_reserve.remove(i-1)
+        else:
+            n-=1
+    return n
 
 
-print(sum)
+print(solution(5,[2, 4],[1, 3, 5]))
